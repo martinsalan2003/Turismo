@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(#00000001,#00000063), url(/aula10/aeroexpress/imagens/fundonewyoek.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.container {
+    max-width: 14000px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+img#icon {
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+        
+}
+
+img#icon:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+   
+
+ }
+nav ul li a:hover { 
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+
+}
+
+
+.principal {
+    margin: 40px;
+    width: 95%;
+    height: 300px;
+    background-color:#87CEEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ img#foto {
+    padding: 10px;
+    display: flex;
+    width: 800px;
+    height: 250px;
+}
+
+tr td{
+ padding: 10px;
+ display: inline-block;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+ #rio:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+#egito:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+#italia:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+#grecia:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+#paris:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+ 
+ #rio {
+    margin: 48px;
+    height: 150px;
+    width: 170px;
+   border-radius: 50%;
+   transition: all 0.8s;
+   cursor: pointer
+}
+
+#egito { 
+    margin: 48px;
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    transition: all 0.8s;
+   cursor: pointer;
+}
+#italia{
+    margin: 48px;
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    transition: all 0.8s;
+   cursor: pointer;
+}
+#grecia {
+    margin: 48px;
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    transition: all 0.8s;
+   cursor: pointer;
+}
+#paris {
+    margin: 48px;
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    transition: all 0.8s;
+   cursor: pointer;
+
+}
