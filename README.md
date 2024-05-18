@@ -1,5 +1,4 @@
 # Turismo
-Viaje já com 
 
 ![preview](./.github/preview.png)
 
