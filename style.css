@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(#00000001,#00000063), url(https://raw.githubusercontent.com/martinsalan2003/Turismo/main/imagens/img1.jpeg);
+    background-image: linear-gradient(#00000001,#00000063), url(/imagens/fundogrecia2.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ nav ul li a:hover {
     margin: 40px;
     width: 95%;
     height: 300px;
-    background-color:#d0e0eb;
+    background-color:#778899;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@ nav ul li a:hover {
  img#foto {
     padding: 10px;
     display: flex;
-    width: 500px;
+    width: 800px;
     height: 250px;
 }
 
@@ -88,28 +88,17 @@ p{
     margin-top: 10px;
 }
 
-.mais {
-    margin: 40px;
-    width: 10%;
-    height: 150px;
-    background-color: #d0e0eb;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-
-}
- #egito:hover{
-    
+ #rio:hover{
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
 }
 
-#Italia:hover {
+#egito:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
 }
 
-#grecia:hover {
+#italia:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
 }
@@ -124,25 +113,16 @@ p{
 }
 
  
-.main{
-    background-color: aliceblue;
-    padding: 93px;
-    margin: 40px;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-  
-}
- #egito {
+ #rio {
     margin: 48px;
     height: 150px;
+    width: 170px;
    border-radius: 50%;
    transition: all 0.8s;
-   cursor: pointer;
-    
+   cursor: pointer
 }
 
-#Italia { 
+#egito { 
     margin: 48px;
     height: 150px;
     width: 170px;
@@ -150,7 +130,7 @@ p{
     transition: all 0.8s;
    cursor: pointer;
 }
-#grecia{
+#italia{
     margin: 48px;
     height: 150px;
     width: 170px;
@@ -175,4 +155,3 @@ p{
    cursor: pointer;
 
 }
-
